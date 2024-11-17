@@ -5,7 +5,7 @@ const api = express()
 api.use(require('cors')())
 
 api.get('/', (req, res) => {
-	res.redirect("https://lasteststats.onrender.com/")
+	res.redirect("https://lasteststats-8a88.onrender.com")
 })
 
 api.get('/:id', (req, res) => {
